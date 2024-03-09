@@ -1,0 +1,19 @@
+Các câu lệnh dùng trong Git:
+- clear: xóa màn hình cho sạch
+- dir: cho biết các tập tin/thư mục có trong thư mục hiện tại
+- ls: cho biết các tập tin/thư mục có trong thư mục hiện tại
+- cd ..: lùi về một cấp tập tin đang làm việc
+- cd (tên thư mục): tiến tới một cấp theo tên thư mục nhập vào
+- mkdir "tên thư mục": tạo ra một thư mục mới
+- touch "tên file": tạo ra một tập tin mới
+	+ Đặt tên tập tin nếu là Vidu1.txt thì sẽ tạo ra bth, nhưng nếu để là Vi du1.txt sẽ sai, nó sẽ tạo ra hai file không đúng nhu cầu, phải để là 'Vi du1.txt' thì nó sẽ đúng
+	+ Tạo một tên tập tin mới trùng tên thì nó sẽ không tạo tập tin bị trùng đó
+- echo: in/xuất một nội dung 
+- echo "Text" > "Tên file" (ghi đè mọi thứ): chỉ định hướng để xuất dữ liệu
+- echo "Text" >> "Tên file" (xuống dòng và không ghi đè): chỉ định hướng để xuất dữ liệu
+- cat "Tên file": hiển thị nội dung
+- diff file1 file2: so sánh khác biệt giữa file thứ nhất và file thứ hai
+- rm (remove): xóa
+	+ rm "tên tập tin": xóa file
+	+ rm -d "tên thư mục" xóa thư mục, thư mục rỗng mới xóa được, thư mục có nội dung thì không xóa được
+	+rm -r "tên thư mục": xóa thư mục không rỗng
